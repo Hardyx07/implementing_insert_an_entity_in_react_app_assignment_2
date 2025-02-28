@@ -2,6 +2,8 @@
 
 .dashboard {
   padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .dashboard-header {
@@ -13,19 +15,22 @@
 
 .add-movie-button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #ff5722; /* More vibrant color */
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
 .add-movie-button:hover {
-  background-color: #0056b3;
+  background-color: #e64a19;
 }
 
 .movie-list {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
